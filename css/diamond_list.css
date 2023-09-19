@@ -1,0 +1,227 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #232f3e;
+    width: 100vw;
+    max-width: 400px;
+    height: 60px;
+}
+.store_name{
+    margin-left: 3px;
+    height: 50%;
+    width: 60px;
+}
+.store_name b{
+    color: white;
+    margin: 0;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+.store_name p{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: small;
+    text-align: right;
+    letter-spacing: 2px;
+}
+.image_slider{
+    height: 160px;
+    min-height: 160px;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 0;
+}
+b{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 5px;
+    margin-top: 10px;
+}
+.input_container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e3e3e5e0;
+    border-radius: 10px;
+    padding: 5px;
+    width: 350px;
+    margin-top: 20px;
+}
+.id_level{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.input_id{
+    width: 335px;
+    margin-top: 5px;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid #e3e3e5e0;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.product_container1{
+    border: 2px solid #e3e3e5e0;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    max-width: 360px;
+}
+.product_container2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #f6f6f838;
+    border: 2px solid #e3e3e5e0;
+    border-radius: 10px;
+    width: 169px;
+    height: 90px;
+    cursor: pointer;
+    transition: background 0.15s, border 0.15s;
+}
+.product_container2:hover {
+    background-color: #2ab20046; border: 2px solid #2ab200;
+}
+.product_container2:focus {
+    background-color: #2ab20046; border: 2px solid #2ab200;
+}
+.sub_container1{
+    display: flex;
+    height: 50%;
+    background-color: rgba(0, 0, 255, 0);
+}
+.sub_container1 h4{
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 75%;
+}
+.sub_container1 img{
+    margin-top: 0px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.sub_container2{
+    height: 50%;
+    background-color: rgba(0, 255, 255, 0);
+}
+.sub_container2 p{
+    color: rgb(69, 68, 68);
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.payment_container1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e3e3e5e0;
+    border-radius: 10px;
+    padding: 5px;
+    width: 350px;
+    margin-top: 5px;
+}
+.payment_container1 p{
+    background-color: rgba(124, 66, 66, 0);
+    margin: 0px;
+    font-size: large;
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    padding-top: 15px;
+}
+.payment_container2{
+    height: 50px;
+    display: flex;
+    border: 2px solid #e3e3e5e0;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background 0.15s, border 0.15s; 
+}
+.payment_container2:hover{
+    background-color: #2ab20046; border: 2px solid #29b200
+}
+.payment_logo{
+    height: 100%;
+}
+.or {
+    text-align: center;
+    line-height: 2em;
+    border-bottom: 1px solid #000;
+    line-height: 0.001em;
+}
+span {
+    background: #fff;
+    padding: 0 10px;
+}
+.payment_QR{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e3e3e5e0;
+    border-radius: 5px;
+    margin-top: 18px;
+    justify-content: center;
+}
+.qr_image{
+    margin: 0 auto;
+    height: 250px;
+}
+.upload_ss{
+    margin: 10px;
+}
+.upload_ss input{
+    margin-top: 10px;
+    border: 1px ridge #e3e3e5e0;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #232f3e;
+    margin-bottom: 0;
+    width: 100vw;
+    max-width: 400px;
+    height: 60px;
+}
+footer input{
+    height: 60%;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #ff9900;
+    color: #131a22;
+    transition: background 0.15s;
+}
+footer input:hover{
+    background: #f1a739;
+}
+footer b{
+    color: white;
+    font-size: large;
+}
